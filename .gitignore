@@ -6,10 +6,10 @@ _mirage/Makefile
 _mirage/log
 _mirage/main.ml
 _mirage/main.native
-_mirage/mir-www#
+_mirage/mir-www
 _mirage/static1.ml
 _mirage/static1.mli
 _mirage/www.xl
 
 # sublime
-*.sublime_workspace
+*.sublime-workspace
