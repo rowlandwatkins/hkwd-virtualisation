@@ -1,4 +1,8 @@
-_site
+_site/reveal.js
+_site/slides
+_site/LICENSE.md
+_site/README.md
+_site/index.html
 
 #mirage related
 _mirage/_build
