@@ -50,10 +50,12 @@ if [ "$MIRAGE_BACKEND" = "xen" \
     rm -rf $TRAVIS_COMMIT
     mkdir -p $TRAVIS_COMMIT
     cp ../mir-www.xen ../config.ml $TRAVIS_COMMIT
+    cp ../mir-www $TRAVIS_COMMIT
 
     # Compress the VM and add a text file to note
     # the commit of the most recently built VM.
     bzip2 -9 $TRAVIS_COMMIT/mir-www.xen
+    bzip2 -9 $TRAVIS_COMMIT/mir-www
     git pull --rebase
     echo $TRAVIS_COMMIT > latest    # update ref to most recent
 
