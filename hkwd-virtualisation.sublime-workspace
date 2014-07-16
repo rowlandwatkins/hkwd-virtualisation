@@ -1,0 +1,598 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fund",
+				"fundInstance"
+			],
+			[
+				"w",
+				"withDynSession"
+			],
+			[
+				"Fund",
+				"FundFeeTable"
+			],
+			[
+				"Fun",
+				"FundTable"
+			],
+			[
+				"feeVa",
+				"feeValueType"
+			],
+			[
+				"fee",
+				"feeName"
+			],
+			[
+				"from",
+				"fromFundTable"
+			],
+			[
+				"toF",
+				"toFundDisplay"
+			],
+			[
+				"Table",
+				"TableQuery"
+			],
+			[
+				"for",
+				"foreignKey"
+			],
+			[
+				"hudr",
+				"hurdleRatePct"
+			],
+			[
+				"full",
+				"fullNameTC"
+			],
+			[
+				"shor",
+				"shortNameTc"
+			],
+			[
+				"sho",
+				"shortNameSc"
+			],
+			[
+				"short",
+				"shortNameEn"
+			],
+			[
+				"trans",
+				"transFee"
+			],
+			[
+				"No",
+				"NotNull"
+			],
+			[
+				"N",
+				"NotNull"
+			],
+			[
+				"ang",
+				"angular-ui-bootstrap"
+			],
+			[
+				"fruit",
+				"fruitroute"
+			],
+			[
+				"Au",
+				"AuthenticationFailedRejection"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"session",
+				"sessionID"
+			],
+			[
+				"json",
+				"jsonReply"
+			],
+			[
+				"per",
+				"persistorAddress"
+			],
+			[
+				"user",
+				"userCollection"
+			],
+			[
+				"mod",
+				"mod-mongo-persistor"
+			],
+			[
+				"veert",
+				"vertxEventBusService"
+			],
+			[
+				"auth",
+				"authConfig"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"Net",
+				"NetSocket"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"push",
+				"Git: Push Current Branch"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
+				"rest",
+				"RESTer: HTTP Request"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pu",
+				"Git: Push Current Branch"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"pus",
+				"Git: Push Current Branch"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"isntall",
+				"Git: Reset (unstage) All"
+			],
+			[
+				"br",
+				"Preferences: Browse Packages"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"en",
+				"Ensime: Startup"
+			],
+			[
+				"ens",
+				"Ensime: Startup"
+			],
+			[
+				"git",
+				"Git: Init"
+			],
+			[
+				"init",
+				"Git: Init"
+			],
+			[
+				"comit",
+				"Git: Commit"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/rowland/development/presentations/hkwd-virtualisation"
+	],
+	"file_history":
+	[
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/assets/javascripts/admin/main.js",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/assets/javascripts/main.js",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/assets/javascripts/admin/fund-confirmation.html",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/assets/javascripts/admin/routes.js",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/assets/javascripts/admin/fund-names.html",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/build.sbt",
+		"/home/rowland/development/third-party/webjars/postal/pom.xml",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/assets/javascripts/postal.js",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/assets/javascripts/postal.min.js",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/conf/routes",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/project/plugins.sbt",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/assets/javascripts/admin/fund-profile.html",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/assets/stylesheets/main.less",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/assets/javascripts/admin/fund-fees.html",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/views/index.scala.html",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/assets/javascripts/home/main.js",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/assets/javascripts/app.js",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/assets/javascripts/home/routes.js",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/assets/javascripts/dashboard/routes.js",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/assets/javascripts/dashboard/main.js",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/assets/javascripts/user/routes.js",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/assets/javascripts/user/main.js",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/assets/javascripts/admin/controllers.js",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/assets/javascripts/admin/admin.html",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/controllers/AdminController.scala",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/views/admin/index.scala.html",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/assets/javascripts/home/controllers.js",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/assets/javascripts/home/home.html",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/target/web/public/main/lib/d3-plugins/geo/projection/homolosine.js",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/project/target/node-modules/webjars/npm/node_modules/request/node_modules/hawk/node_modules/hoek/test/modules/test1.js",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/project/target/node-modules/webjars/npm/node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctype/tst.writeStruct.js",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/project/target/node-modules/webjars/npm/node_modules/request/node_modules/tough-cookie/lib/memstore.js",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/controllers/Dashboard.scala",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/views/dashboard/index.scala.html",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/assets/javascripts/fund",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/controllers/FundController.scala",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/models/fund/Fund.scala",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/views/funds/index.scala.html",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/assets/javascripts/admin/controller.js",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/assets/javascripts/common/directives/fund.js",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/assets/javascripts/common/main.js",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/models/fund/db/Tables.scala",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/views/funds/list.scala.html",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/views/funds/show.scala.html",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/conf/application.conf",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/views/funds/funderror.scala.html",
+		"/mnt/hgfs/host/Downloads/fund_form.html",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/views/show.funds.scala.html",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/views/display.funds.scala.html",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/.gitignore",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/models/fund/db/FundFee.scala",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/models/fund/db/Fund.scala",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/models/fund/db/FundName.scala",
+		"/home/rowland/development/fundbyclick/play-angular-require-seed/app/models/fund/Fund.slickint",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/assets/javascripts/common/directives/directives.js",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/assets/javascripts/common/filters.js",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/assets/javascripts/common/services/services.js",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/controllers/Application.scala",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/GlobalSettings.scala",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/models/fund/db/Tables.scala",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/models/fund/Fund.scala",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/conf/application.conf",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/assets/javascripts/app.js",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/assets/javascripts/dashboard/main.js",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/assets/javascripts/home/main.js",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/assets/javascripts/user/main.js",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/assets/javascripts/common/main.js",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/views/Ng.scala.html",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/conf/routes",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/project/plugins.sbt",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/assets/javascripts/main.js",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/assets/stylesheets/main.less",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/public/js/ts.js",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/public/js/ts.js.map",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/public/js/ts.ts",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/public/js/main.js",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/models/auth/Permission.scala",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/models/auth/MyIdentity.scala",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/models/fund/db/FundFee.scala",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/models/auth/db/Identity.scala",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/models/auth/db/oAuth2Info.scala",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/models/auth/db/PasswordInfo.scala",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/models/auth/db/User.scala",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/models/auth/db/oAuth1Info.scala",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/models/db/Tables.scala",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/models/fund/FundName.scala",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/models/fund/FundFee.scala",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/models/fund/Fund.slickint",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/models/MyIdentity.scala",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/models/auth/oAuth2Info.scala",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/models/auth/oAuth1Info.scala",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/models/auth/PasswordInfo.scala",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/models/auth/User.scala",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/models/auth/Identity.scala",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/.gitignore",
+		"/home/rowland/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/models/package.scala",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/models/Phone.scala",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/views/Index.scala.html",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/models/FundTransaction.scala",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/models/Enumerations.scala",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/public/js/directives.js",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/app/models/CaseClassMappings.scala",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/public/js/controllers.js",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/public/css/app.css",
+		"/home/rowland/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/rowland/development/fundbyclick/fundbyclick-play/project/Build.scala",
+		"/home/rowland/development/third-party/s4/src/main/scala/s4/domain/DBConfig.scala",
+		"/home/rowland/development/third-party/s4/project/plugins.sbt",
+		"/home/rowland/development/third-party/activator-akka-spray/src/main/scala/api/Api.scala",
+		"/home/rowland/development/third-party/activator-akka-spray/src/main/scala/web/Rest.scala",
+		"/home/rowland/development/third-party/activator-akka-spray/src/main/scala/core/registration.scala",
+		"/home/rowland/development/third-party/activator-akka-spray/src/main/scala/domain/package.scala",
+		"/home/rowland/development/third-party/activator-akka-spray/src/main/scala/domain/DAL.scala",
+		"/home/rowland/development/third-party/activator-akka-spray/src/main/scala/domain/Person.scala",
+		"/home/rowland/development/third-party/activator-akka-spray/src/main/scala/domain/Model.scala",
+		"/home/rowland/development/third-party/activator-akka-spray/src/main/angular/root/index.html",
+		"/home/rowland/development/third-party/activator-akka-spray/src/main/angular/root/css/style.css",
+		"/home/rowland/development/third-party/activator-akka-spray/project/plugins.sbt",
+		"/home/rowland/.config/sublime-text-3/Packages/Alignment/Default (Linux).sublime-keymap",
+		"/home/rowland/development/third-party/activator-akka-spray/project/ZipkinTasks.scala",
+		"/home/rowland/development/third-party/activator-akka-spray/src/main/resources/application.conf",
+		"/home/rowland/development/third-party/activator-akka-spray/project/zipkin.sh",
+		"/Users/rowland/development/ucf/contracts/invoices/april/consulting.tex",
+		"/Users/rowland/development/ucf/contracts/invoices/april/beijing.tex",
+		"/Users/rowland/development/ucf/contracts/invoices/consulting.tex",
+		"/Users/rowland/development/ucf/contracts/nda/intern/nda.tex",
+		"/Users/rowland/development/ucf/contracts/management/kevin/draft.tex"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"format",
+			"repeat",
+			"home",
+			"animate",
+			"dist",
+			"def",
+			".?,",
+			"namesId",
+			"datesId",
+			"feesId",
+			"minHolding",
+			"minInitialSubAmt",
+			"totalUnits",
+			"fundSize",
+			"hurdleRatePct",
+			"hurdleRate",
+			"hwm",
+			"beta",
+			"ccy",
+			"dealingFrequency",
+			"launchDate",
+			"updatedBy",
+			"dateCreated",
+			"Int",
+			"};\n",
+			"CredentialsMissing",
+			"demo.css",
+			"her",
+			"groovy-all",
+			"groovy-alll",
+			"timeout",
+			"sessionTimeout",
+			"sendStatus",
+			"sendOK",
+			"username must be",
+			"getOptionalStringConfig",
+			"moduleName",
+			"10",
+			"() "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 98.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 98.0
+	},
+	"project": "hkwd-virtualisation.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"bui",
+				"build.gradle"
+			],
+			[
+				"server",
+				"src/main/java/com/fundbyclick/java/verticles/Server.java"
+			],
+			[
+				"auth",
+				"src/main/java/com/fundbyclick/verticles/AuthManager.java"
+			],
+			[
+				"app",
+				"web/js/app.js"
+			],
+			[
+				"static",
+				"src/main/groovy/com/fundbyclick/groovy/verticles/StaticData.groovy"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/development/presentations/jekyll-reveal/hkwd-virtualisation.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 281.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
