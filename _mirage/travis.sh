@@ -11,7 +11,6 @@ mirage configure --$MIRAGE_BACKEND
 make depend
 make
 
-
 # Only deploy if the following conditions are met.
 
 #if [ "$MIRAGE_BACKEND" = "xen" \
