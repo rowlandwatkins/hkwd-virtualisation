@@ -8,7 +8,7 @@ opam init
 opam install mirage
 opam install crunch
 eval `opam config env`
-mirage configure --$MIRAGE_BACKEND
+env DHCP=true mirage configure --$MIRAGE_BACKEND
 make depend
 make
 
