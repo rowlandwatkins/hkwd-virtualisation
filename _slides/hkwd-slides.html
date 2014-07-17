@@ -1,0 +1,216 @@
+---
+layout: slide
+title: "A Tour of Virtualisation"
+reveal:
+  theme: default
+  controls: true
+  progress: false
+  history: false
+  transition: default
+---
+
+<!--
+1st slide
+-->
+<section>
+  <h1>{{ page.title }}</h1>
+</section>
+
+<!--
+2nd slide
+-->
+<section>
+  <h2>Overview</h2>
+  <ul>
+    <li>What is Virtualisation?</li>
+    <li>Why Virtualisation?</li>
+    <li>Types of Virtualisation</li>
+    <li>Brief History of Virtualisation</li>
+    <li>Hypervisors</li>
+    <li>Linux Containers</li>
+    <li>Unikernels</li>
+    <li>Summary</li>
+  </ul>
+</section>
+
+<section>
+  <h2>What is Virtualisation?</h2>
+  <ul>
+    <li>The *emulation* of a computer</li>
+    <li>*Emulation* could be</li>
+    <ul>
+      <li>Hardware-based</li>
+      <li>Software-based</li>
+      <li>Hybrid (mixture of software with hardware assistance at CPU level</li>
+    </ul>
+    <li>The *emulation* (e.g. virtual machine) acts like a real computer with all the underlying features (memory, CPU, networking, other peripherals)</li>
+    <li>Each approach to virtualisation has its merits depending on needs</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Why Virtualisation?</h2>
+  <ul>
+    <li>Better utilisation of hardware</li>
+    <li>Rapid provisioning (auto-scaling)</li>
+    <li>Security (sandboxing)</li>
+    <li>Hardware fault tolerance</li>
+    <li>Workload balancing/live migration</li>
+    <li>Support legacy software</li>
+    <li>Testing (IE in a VM!)</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Types of Virtualisation</h2>
+  <ul>
+    <li>Full virtualisation</li>
+    <ul>
+      <li>Complete simulation of actual hardware - hypervisor</li>
+      <li>Can be hardware assisted or provide direct pass-through for certain hardware, e.g. GPU</li>
+    </ul>
+    <li>Partial virtualisation</li>
+    <ul>
+      <li>Some simulation</li>
+    </ul>
+    <li>Paravirtualisation</li>
+    <ul>
+      <li>Requires modifications to both hypervisor and guest</li>
+    </ul>
+  </ul>
+</section>
+
+<section>
+  <h2>Brief History of Virtualisation</h2>
+  <ul>
+    <li>1960s - 1980s IBM mainframes (early form of paravirtualisation)</li>
+    <li>1990s VMWare and the start of Type 2 Hypervisors</li>
+    <li>2000s Xen (Type 1), Parallels (Type 2), Solaris Containers</li>
+    <li>2010s Linux Containers, Unikernels</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Hypervisors</h2>
+  <ul>
+    <li>Type 1: Bare Metal</li>
+    <li>Type 2: Hosted</li>  
+  </ul>
+  ![bob](images/type1-vs-type2.png)
+</section>
+
+<section>
+  <h2>Hardware-assisted Hypervisors (Type 1)</h2>
+  <ul>
+    <li>Originally only way to run Guest OS without modification</li>
+    <ul>
+      <li>Windows</li>
+      <li>Mac OS X</li>  
+    </ul>
+    <li>Requires support from the host CPU</li>
+    <ul>
+      <li>e.g. Intel VTx</li>
+    </ul>
+  </ul>
+</section>
+
+<section>
+  <h2>Linux Containers</h2>
+  <ul>
+    <li>Operating System-level virtualisation</li>
+    <li>Run multiple isolated Linux systems (containers) on a single host</li>
+    <li>Linux kernel implements using cgrouops for resource isolation</li>
+    <ul>
+      <li>CPU, memory, block I/O, network, etc.</li>
+    </ul>
+    <li>Cgroups provide namespace isolation to completely isolate application's view of the operating environment</li>
+    <li>Linux examples: Docker, LXC</li>
+    <li>Others: Solaris Containers, FreeBSD Jails</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Unikernels</h2>
+  <ul>
+    <li>Virtual library operating system</li>
+    <li>Single applications</li>
+    <li>Normally tied to a specific language/runtime</li>
+    <li>Kernel directly accesses hypervisor features</li>
+    <li>Customised runtime due to platform constraints, not as mature (for now)</li>
+    <li>Potentially better security since attack surface area reduced (e.g. no users, access to filesystem, etc.)</li>
+    <li>Examples:</li>
+    <ul>
+      <li>LISP Machines</li>
+      <li>MirageOS(OCaml)</li>
+      <li>Erlang on Xen (Erlang, Elixir, based on LING)</li>
+      <li>OSv (OpenJDK /8)</li>
+    </ul>
+  </ul>
+</section>
+
+<section>
+  <h2>Why Unikernels?</h2>
+  <ul>
+    <li>Poor utilisation of underlying resources with current OS paradigm</li>
+    <li>Single application appliances</li>
+    <li>Full OS Vms take minutes to start</li>
+    <ul>
+      <li>Slim runtime: Kernel and userspace code together</li>
+      <li>Quick to start - seconds</li>
+      <li>Small (this presentation is hosted in kernel &lt; 10MB)</li>
+      <li>Cheap enough to throw away and replace - immutable systems</li>
+      <li>Trivial to scale</li>
+    </ul>
+    <li>Imagine clusters of unikernels that act like micro-services!</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Unikernels Examples</h2>
+  <ul>
+    <li>MirageOS</li>
+    <ul>
+      <li>Ocaml runtime (type safe, functional, awesome)</li>
+      <li>Designed by same team that created Xen</li>
+      <li>Tied directly to Xen Hypervisor - EC2 compatible)</li>
+    </ul>
+    <li>Erlang on Xen</li>
+    <ul>
+      <li>Erlang runtime with LING</li>
+      <li>All the power of actor-based system, in a unikernel</li>
+      <li>Again, tied to Xen</li>
+    </ul>
+    <li>OSv</li>
+    <ul>
+      <li>Java runtime, single user environment</li>
+      <li>Claims to be faster than running Java on equivalent hardware</li>
+      <li>Limitations: no fork/join supported (yet)</li>
+      <li>Xen, Virtualbox, VMWare compatible</li>
+    </ul>
+  </ul>
+</section>
+
+<section>
+  <h2>This presentation</h2>
+  <ul>
+    <li>MirageOS + Jekyll + RevealJS</li>
+    <li>Unikernel: MirageOS</li>
+    <li>Website: Jekyll (ruby, static website generator)</li>
+    <li>Slides: RevealJS</li>
+    <li>[Presentation](https://github.com/rowlandwatkins/hkwd-presentation)</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Summary</h2>
+  <ul>
+    <li>Virtualisation allows us to better leverage hardware</li>
+    <li>Modern Hypervisors can be broken down into two types:</li>
+    <ul>
+      <li>Type 1: baremetal</li>
+      <li>Type 2: hosted</li>
+    </ul>
+    <li>Linux Containers provide OS-level virtualisation, that provides new level of isolation for our applications</li>
+    <li>Unikernels take isolation a step further by making the application and VM the same thing</li>
+  </ul>
+</section>
